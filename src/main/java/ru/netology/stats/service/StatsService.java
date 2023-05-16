@@ -53,6 +53,7 @@ public class StatsService {
         }
         return counter;
     }
+
     public long SalesAboveAverageMonth(long[] sales) {
         long counter = 0;
         long averageSales = averageSalesMonth(sales);
